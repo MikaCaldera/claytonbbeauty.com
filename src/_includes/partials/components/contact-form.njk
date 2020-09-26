@@ -11,6 +11,11 @@
       {{ field( "email", "email", { required: true, placeholder: "example@gmail.com", autocomplete: "email" } ) }}
     </li>
     <li class="[ field-list__field-group ]">
+      {{ label("Phone Number", "number") }}
+      {{ field( "number", "number", { required: true, placeholder: "860 555-1234", autocomplete: "number" } ) }}
+    </li>
+
+    <li class="[ field-list__field-group ]">
       {{ label("Want to book an appointment?", "message") }}
       {{ textarea( "message", { required: true, autocapitalize: "sentences", spellcheck: "true" } ) }}
     </li>
