@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Clayton B Beauty
-metaDesc: Clayton B Beauty | Professional Hair Stylist Connecticut
+metaDesc: Clayton B Beauty | Professional Hair Stylist in Connecticut Salon
 postsHeading: Latest posts
 archiveButtonText: See all
 socialImage: ""
