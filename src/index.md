@@ -1,9 +1,12 @@
 ---
 layout: home
-title: Clayton W. Behrmann
-metaDesc: Clayton B Beauty | Professional Hair Stylist in Connecticut Salon
-postsHeading: Testimonials
-archiveButtonText: See all
-socialImage: ""
+title: A simple starter kit for Eleventy
+postsHeading: Latest posts
+archiveButtonText: See all posts
+metaDesc: 'Hylia is a lightweight Eleventy starter kit to help you to create your own blog or personal website.'
+socialImage: ''
 ---
-Clayton’s first interest in beauty came at an early age. As a child, he would hang out at his Aunt’s salon. In addition, to sweeping hair, he would watch the joy of each client as they left the salon. At the age of 18, Clayton began his journey in the beauty industry. 12 years later he has built up a long list of clients that leave his chair with the same excitement on their faces he remembered seeing as a child. Always wanting to learn and grow as a stylist he is always looking to enhance his technique. He has assisted in a cover shoot for Seventeen Magazine, NYC Fashion Week, as well as working on local events, photo shoots, and fashion shows. Clayton’s true passion is his eye for color and love for chemistry which makes him the eclectic colorist and stylist he is today. If length is what you need he is also an extension specialist. Whatever your hair need is, Clayton can deliver.
+
+Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend yourself. It’s by [Andy Bell](https://twitter.com/hankchizljaw) and [friends](https://github.com/aarongustafson/hylia/graphs/contributors).
+
+Get started now by [deploying Hylia to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/hankchizljaw/hylia&stack=cms)
