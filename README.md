@@ -9,8 +9,6 @@ Get started now by **[deploying Hylia to Netlify.][deploy-to-netlify]**
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)][deploy-to-netlify]
 
-<img src="https://hankchizljaw.imgix.net/hylia-github.jpg?auto=format&q=60" width="550" />
-
 ## Features
 
 Hylia version 0.7.0 features:
