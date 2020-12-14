@@ -1,19 +1,9 @@
 {
   "items": [
     {
-      "text": "Twitter",
-      "url": "https://twitter.com",
-      "icon": "/_assets/images/twitter-brands.svg"
-    },
-    {
-      "text": "Facebook",
-      "url": "https//facebook.com",
-      "icon": "/_assets/images/facebook-f-brands.svg"
-    },
-    {
-      "text": "LinkedIN",
-      "url": "https://linkedin.com",
-      "icon": "/_assets/images/linkedin-in-brands.svg"
+      "text": "instagram",
+      "url": "https://www.instagram.com/claytonbbeauty/",
+      "icon": "/_assets/images/instagram.svg"
     }
   ]
 }
