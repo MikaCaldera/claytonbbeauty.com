@@ -60,89 +60,89 @@ collections:
               - { label: 'Heading Level', name: 'headingLevel', widget: 'select', options: ['1', '2', '3', '4', '5', '6'], default: '2'}
               - { label: 'Text Alignment', name: 'textAlign', widget: 'select', options: ['left', 'right', 'center'], default: 'left'}
               - { label: 'Text', name: 'text', widget: 'string' }
-          # - label: 'Hero'
-          #   name: 'hero'
-          #   widget: 'object'
-          #   fields:
-          #     - { label: 'Body', name: 'body', widget: 'markdown' }
-          #     - { label: 'Body Text Color', name: 'textColor', widget: 'select', options: ['light', 'dark', 'primary', 'secondary', 'info', 'success', 'warning', 'danger']}
-          #     - { label: 'Call to Action Link', name: 'link', widget: 'string', required: false }
-          #     - { label: 'Call to Action Link Text', name: 'linkText', widget: 'string', default: 'Learn More', required: false }
-          #     - { label: 'Call to Action Button Type', name: 'buttonType', widget: 'select', options: ['light', 'dark', 'primary', 'secondary', 'info', 'success', 'warning', 'danger'], default: 'primary', required: false}
-          #     - label: 'Call to Action Button Size'
-          #       name: 'btnSize'
-          #       widget: 'select'
-          #       options:
-          #         - { label: 'Large', value: 'lg' }
-          #         - { label: 'Medium', value: 'md' }
-          #         - { label: 'Small', value: 'sm' }
-          #       default: 'lg'
-          #       required: false
-          #     - { label: 'Show Contact Form?', name: 'form', widget: 'boolean', default: false }
-          #     - { label: 'Form Text Color', name: 'formTextColor', widget: 'select', options: ['light', 'dark', 'primary', 'secondary', 'info', 'success', 'warning', 'danger']}
-          #     - { label: 'Form Background Color', name: 'formBgColor', widget: 'select', options: ['light', 'dark', 'primary', 'secondary', 'info', 'success', 'warning', 'danger']}
-          #     - { label: 'Form Button Color', name: 'formBtnColor', widget: 'select', options: ['light', 'dark', 'primary', 'secondary', 'info', 'success', 'warning', 'danger']}
-          #     - label: 'Layout'
-          #       name: 'flexRowOrder'
-          #       widget: 'select'
-          #       default: 'flex-md-row'
-          #       options:
-          #         - { label: 'Normal', value: 'flex-md-row' }
-          #         - { label: 'Reverse', value: 'flex-md-row-reverse' }
-          #     - { label: 'Background Attachment', name: 'backgroundAttachment', widget: 'select', options: ['fixed', 'scroll'], default: 'scroll'}
-          #     - { label: 'Background Image', name: 'background', widget: 'image' }
-          #     - { label: 'Background Video (HTML)', name: 'video', widget: 'markdown', required: false }
-          # - label: 'Media and Text'
-          #   name: 'media'
-          #   widget: 'object'
-          #   fields:
-          #     - label: 'Container'
-          #       name: 'container'
-          #       widget: 'select'
-          #       options:
-          #         - { label: 'Normal', value: 'container' }
-          #         - { label: 'Fluid', value: 'container-fluid' }
-          #       default: 'container'
-          #     - { label: 'Body', name: 'body', widget: 'markdown' }
-          #     - { label: 'Image', name: 'image', widget: 'image' }
-          #     - { label: 'Alternative Text', name: 'alt', widget: 'string' }
-          #     - { label: 'Image Position', name: 'imagePosition', widget: 'select', options: ['left', 'right'], default: 'left'}
-          #     - { label: 'Call to Action Link', name: 'link', widget: 'string', required: false }
-          #     - { label: 'Call to Action Link Text', name: 'linkText', widget: 'string', default: 'Learn More', required: false }
-          #     - { label: 'Call to Action Button Type', name: 'buttonType', widget: 'select', options: ['light', 'dark', 'primary', 'secondary', 'info', 'success', 'warning', 'danger'], default: 'primary', required: false}
-          #     - label: 'Call to Action Button Size'
-          #       name: 'btnSize'
-          #       widget: 'select'
-          #       options:
-          #         - { label: 'Large', value: 'lg' }
-          #         - { label: 'Medium', value: 'md' }
-          #         - { label: 'Small', value: 'sm' }
-          #       default: 'md'
-          #       required: false
-          # - label: 'Contact Form'
-          #   name: 'contactform'
-          #   widget: 'object'
-          #   fields:
-          #     - label: 'Container'
-          #       name: 'container'
-          #       widget: 'select'
-          #       options:
-          #         - { label: 'Normal', value: 'container' }
-          #         - { label: 'Fluid', value: 'container-fluid' }
-          #       default: 'container'
-          #     - { label: 'Form Note', name: 'formNote', widget: 'string', default: 'Contact form will appear here.' }
-          # - label: 'Separator'
-          #   name: 'separator'
-          #   widget: 'object'
-          #   fields:
-          #     - label: 'Container'
-          #       name: 'container'
-          #       widget: 'select'
-          #       options:
-          #         - { label: 'Normal', value: 'container' }
-          #         - { label: 'Fluid', value: 'container-fluid' }
-          #       default: 'container'
-          #     - { label: 'Separator Note', name: 'separatorNote', widget: 'string', default: 'A horizontal rule separator will appear here.' }
+          - label: 'Hero'
+            name: 'hero'
+            widget: 'object'
+            fields:
+              - { label: 'Body', name: 'body', widget: 'markdown' }
+              - { label: 'Body Text Color', name: 'textColor', widget: 'select', options: ['light', 'dark', 'primary', 'secondary', 'info', 'success', 'warning', 'danger']}
+              - { label: 'Call to Action Link', name: 'link', widget: 'string', required: false }
+              - { label: 'Call to Action Link Text', name: 'linkText', widget: 'string', default: 'Learn More', required: false }
+              - { label: 'Call to Action Button Type', name: 'buttonType', widget: 'select', options: ['light', 'dark', 'primary', 'secondary', 'info', 'success', 'warning', 'danger'], default: 'primary', required: false}
+              - label: 'Call to Action Button Size'
+                name: 'btnSize'
+                widget: 'select'
+                options:
+                  - { label: 'Large', value: 'lg' }
+                  - { label: 'Medium', value: 'md' }
+                  - { label: 'Small', value: 'sm' }
+                default: 'lg'
+                required: false
+              - { label: 'Show Contact Form?', name: 'form', widget: 'boolean', default: false }
+              - { label: 'Form Text Color', name: 'formTextColor', widget: 'select', options: ['light', 'dark', 'primary', 'secondary', 'info', 'success', 'warning', 'danger']}
+              - { label: 'Form Background Color', name: 'formBgColor', widget: 'select', options: ['light', 'dark', 'primary', 'secondary', 'info', 'success', 'warning', 'danger']}
+              - { label: 'Form Button Color', name: 'formBtnColor', widget: 'select', options: ['light', 'dark', 'primary', 'secondary', 'info', 'success', 'warning', 'danger']}
+              - label: 'Layout'
+                name: 'flexRowOrder'
+                widget: 'select'
+                default: 'flex-md-row'
+                options:
+                  - { label: 'Normal', value: 'flex-md-row' }
+                  - { label: 'Reverse', value: 'flex-md-row-reverse' }
+              - { label: 'Background Attachment', name: 'backgroundAttachment', widget: 'select', options: ['fixed', 'scroll'], default: 'scroll'}
+              - { label: 'Background Image', name: 'background', widget: 'image' }
+              - { label: 'Background Video (HTML)', name: 'video', widget: 'markdown', required: false }
+          - label: 'Media and Text'
+            name: 'media'
+            widget: 'object'
+            fields:
+              - label: 'Container'
+                name: 'container'
+                widget: 'select'
+                options:
+                  - { label: 'Normal', value: 'container' }
+                  - { label: 'Fluid', value: 'container-fluid' }
+                default: 'container'
+              - { label: 'Body', name: 'body', widget: 'markdown' }
+              - { label: 'Image', name: 'image', widget: 'image' }
+              - { label: 'Alternative Text', name: 'alt', widget: 'string' }
+              - { label: 'Image Position', name: 'imagePosition', widget: 'select', options: ['left', 'right'], default: 'left'}
+              - { label: 'Call to Action Link', name: 'link', widget: 'string', required: false }
+              - { label: 'Call to Action Link Text', name: 'linkText', widget: 'string', default: 'Learn More', required: false }
+              - { label: 'Call to Action Button Type', name: 'buttonType', widget: 'select', options: ['light', 'dark', 'primary', 'secondary', 'info'], default: 'primary', required: false}
+              - label: 'Call to Action Button Size'
+                name: 'btnSize'
+                widget: 'select'
+                options:
+                  - { label: 'Large', value: 'lg' }
+                  - { label: 'Medium', value: 'md' }
+                  - { label: 'Small', value: 'sm' }
+                default: 'md'
+                required: false
+          - label: 'Contact Form'
+            name: 'contactform'
+            widget: 'object'
+            fields:
+              - label: 'Container'
+                name: 'container'
+                widget: 'select'
+                options:
+                  - { label: 'Normal', value: 'container' }
+                  - { label: 'Fluid', value: 'container-fluid' }
+                default: 'container'
+              - { label: 'Form Note', name: 'formNote', widget: 'string', default: 'Contact form will appear here.' }
+          - label: 'Separator'
+            name: 'separator'
+            widget: 'object'
+            fields:
+              - label: 'Container'
+                name: 'container'
+                widget: 'select'
+                options:
+                  - { label: 'Normal', value: 'container' }
+                  - { label: 'Fluid', value: 'container-fluid' }
+                default: 'container'
+              - { label: 'Separator Note', name: 'separatorNote', widget: 'string', default: 'A horizontal rule separator will appear here.' }
           # - label: 'Callouts'
           #   name: 'callouts'
           #   widget: 'object'
@@ -211,23 +211,23 @@ collections:
           #       fields:
           #         - { label: 'Image', name: 'image', widget: 'image' }
           #         - { label: 'Alternative Text', name: 'alt', widget: 'string' }
-          # - label: 'Gallery'
-          #   name: 'gallery'
-          #   widget: 'object'
-          #   fields:
-          #     - label: 'Container'
-          #       name: 'container'
-          #       widget: 'select'
-          #       options:
-          #         - { label: 'Normal', value: 'container' }
-          #         - { label: 'Fluid', value: 'container-fluid' }
-          #       default: 'container'
-          #     - label: 'Images'
-          #       name: 'images'
-          #       widget: 'list'
-          #       fields:
-          #         - { label: 'Image', name: 'image', widget: 'image' }
-          #         - { label: 'Alternative Text', name: 'alt', widget: 'string' }
+          - label: 'Gallery'
+            name: 'gallery'
+            widget: 'object'
+            fields:
+              - label: 'Container'
+                name: 'container'
+                widget: 'select'
+                options:
+                  - { label: 'Normal', value: 'container' }
+                  - { label: 'Fluid', value: 'container-fluid' }
+                default: 'container'
+              - label: 'Images'
+                name: 'images'
+                widget: 'list'
+                fields:
+                  - { label: 'Image', name: 'image', widget: 'image' }
+                  - { label: 'Alternative Text', name: 'alt', widget: 'string' }
           - label: 'Testimonials'
             name: 'testimonials'
             widget: 'object'
