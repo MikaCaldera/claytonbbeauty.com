@@ -228,29 +228,28 @@ collections:
           #       fields:
           #         - { label: 'Image', name: 'image', widget: 'image' }
           #         - { label: 'Alternative Text', name: 'alt', widget: 'string' }
-          # - label: 'Testimonials'
-          #   name: 'testimonials'
-          #   widget: 'object'
-          #   fields:
-          #     - label: 'Container'
-          #       name: 'container'
-          #       widget: 'select'
-          #       options:
-          #         - { label: 'Normal', value: 'container' }
-          #         - { label: 'Fluid', value: 'container-fluid' }
-          #       default: 'container'
-          #     - {label: 'Title', name: 'title', widget: 'string'}
-          #     - { label: 'Heading Level', name: 'headingLevel', widget: 'select', options: ['1', '2', '3', '4', '5', '6'], default: '2'}
-          #     - { label: 'Text Color', name: 'textColor', widget: 'select', options: ['light', 'dark', 'primary', 'secondary', 'info', 'success', 'warning', 'danger']}
-          #     - { label: 'Background Color', name: 'backgroundColor', widget: 'select', options: ['light', 'dark', 'primary', 'secondary', 'info', 'success', 'warning', 'danger']}
-          #     - {label: 'Show Indicators', name: 'showIndicators', widget: 'boolean', default: true}
-          #     - {label: 'Show Navigation', name: 'showNavigation', widget: 'boolean', default: true}
-          #     - label: 'Quotes'
-          #       name: 'quotes'
-          #       widget: 'list'
-          #       fields:
-          #       - { label: 'Quotation', name: 'quotation', widget: 'text' }
-          #       - { label: 'Citation', name: 'citation', widget: 'string' }
+          - label: 'Testimonials'
+            name: 'testimonials'
+            widget: 'object'
+            fields:
+              - label: 'Container'
+                name: 'container'
+                widget: 'select'
+                options:
+                  - { label: 'Normal', value: 'container' }
+                  - { label: 'Fluid', value: 'container-fluid', default: 'container' }
+              - { label: 'Title', name: 'title', widget: 'string'}
+              - { label: 'Heading Level', name: 'headingLevel', widget: 'select', options: ['1', '2', '3', '4', '5', '6'], default: '2'}
+              - { label: 'Text Color', name: 'textColor', widget: 'select', options: ['light', 'dark', 'primary', 'secondary', 'info', 'success', 'warning', 'danger']}
+              - { label: 'Background Color', name: 'backgroundColor', widget: 'select', options: ['light', 'dark', 'primary', 'secondary', 'info', 'success', 'warning', 'danger']}
+              - { label: 'Show Indicators', name: 'showIndicators', widget: 'boolean', default: true}
+              - { label: 'Show Navigation', name: 'showNavigation', widget: 'boolean', default: true}
+              - label: 'Quotes'
+                name: 'quotes'
+                widget: 'list'
+                fields:
+                - { label: 'Quotation', name: 'quotation', widget: 'text' }
+                - { label: 'Citation', name: 'citation', widget: 'string' }
           # - label: 'Spotlight'
           #   name: 'spotlight'
           #   widget: 'object'
