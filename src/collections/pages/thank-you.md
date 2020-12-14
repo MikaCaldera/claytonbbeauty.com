@@ -1,6 +1,7 @@
 ---
-title: 'Thank you'
-permalink: '/thank-you/'
+title: Thank you
+permalink: /thank-you/
 ---
+I appreciate you contacting me. I will get back in touch with you soon!
 
-This is your thank you page where if someone fills in your contact form, they will be directed to. Make sure you add a nice message 🙂
+Have a great day! 🙂
