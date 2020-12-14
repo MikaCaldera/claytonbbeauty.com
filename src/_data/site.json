@@ -10,5 +10,5 @@
   "phoneNumber": "860-555-0055",
   "icon": "src/images/favicon.svg",
   "sidebarTitle": "Hello! ",
-  "maxPostsPerPage": 5
+  "maxPostsPerPage": 3
 }
