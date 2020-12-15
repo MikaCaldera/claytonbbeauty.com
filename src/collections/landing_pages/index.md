@@ -27,4 +27,31 @@ components:
     formBgColor: dark
     type: hero
     btnSize: lg
+  - container: container
+    showIndicators: true
+    headingLevel: "1"
+    showNavigation: true
+    backgroundColor: secondary
+    textColor: dark
+    quotes:
+      - quotation: Being a client of Clayton's for over 15yrs has been an absolute
+          privilege. Clayton always listens to his clients vision which helps
+          him align his talents to meet those goals. He strives for the best
+          with every situation-a perfectionist which always reflects in the
+          outcomes of each individual he services. He pursues continuous self
+          development in his craft with colors, cuts and styles. This is why I
+          drive two hours to see him for every appointment as he is best in
+          class.
+        citation: Cheryl Wirth Newport, RI
+      - quotation: Clayton has been my hair stylist for 10+ years and I always leave his
+          chair loving every cut, color and style! Clayton is extremely talented
+          and creative. I trust him, his skill and his opinion and that it very
+          important to me.
+        citation: Celeste Neilsen
+      - quotation: I have been going to Clayton for over 15 years. He is creative, fun
+          and always knows what to do with my hair even when I don't. I trust
+          his skills and I'm never disappointed. He is my forever hair stylist.
+        citation: Nicole Hutchinson
+    title: My Clients
+    type: testimonials
 ---
