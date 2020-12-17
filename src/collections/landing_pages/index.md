@@ -12,7 +12,7 @@ components:
     formBtnColor: secondary
     buttonType: primary
     flexRowOrder: flex-md-row
-    background: /_assets/images/placeholder1000x800.png
+    background: /_assets/images/clayton-protrait.jpg
     backgroundAttachment: scroll
     formTextColor: light
     textColor: light
