@@ -5,8 +5,9 @@
   margin-bottom: 0 !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
-  background-repeat: no-repeat;
-  background-size: cover;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // position: relative;
 
   h1,
   h2,
@@ -25,11 +26,23 @@
     }
   }
 
+  .hello {
+    position: relative;
+  }
+
 
   .hero-article,
   .hero-sidebar {
+    @extend .container;
+
     padding-top: $section-padding;
     padding-bottom: $section-padding;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
   }
 
   .hero-sidebar {
@@ -39,13 +52,8 @@
   .hero-bg {
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    height: 100%;
+    min-height: $spacer*44;
+    position: relative;
 
     iframe,
     video {

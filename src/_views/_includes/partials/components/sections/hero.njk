@@ -1,6 +1,7 @@
 <section class="section section-hero text-{{ item.textColor }} text-{{ item.textAlign }}">
-  <div class="{{ item.container }}">
+  <div class="{{ item.container }} hello">
     <div class="hero-bg embed-responsive background-{{ item.backgroundAttachment }}" style="background-image: url({{ item.background }})">
+     <img class="logo" src="{{ site.logo }}" alt="{{ site.name }} logo">
       {% if item.video %}
         <video autoplay muted loop id="heroVideo">
           <source src="/images/hero.mp4" type="video/mp4">

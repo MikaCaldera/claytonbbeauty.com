@@ -14,9 +14,9 @@
         {% endfor %}
       </ol>
       {% endif %}
-      <div class="carousel-inner">
+      <div class="carousel-inner row">
         {% for quote in item.quotes %}
-        <div class="carousel-item {% if loop.first == true %} active {% endif %}">
+        <div class="carousel-item col col-md-4 {% if loop.first == true %} active {% endif %}">
           <blockquote class="blockquote">
             {{ quote.quotation | markdownFilter | safe }}
             <footer class="blockquote-footer"><cite title="{{ quote.citation }}">{{ quote.citation }}</cite></footer>
