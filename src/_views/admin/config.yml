@@ -343,7 +343,8 @@ collections:
           - {label: 'Logo', name: 'logo', widget: 'image', default: '/_assets/images/logo.svg' }
           - {label: 'Phone Number', name: 'phoneNumber', widget: 'string' }
           - {label: 'Sidebar Title', name: 'sidebarTitle', widget: 'string', required: false }
-          - {label: 'Form HTML', name: 'formHtml', widget: 'text' }
+          - {label: 'Form HTML', name: 'formHtml', widget: 'text', required: false }
+          - {label: 'Form Markdown', name: 'formmarkdown', widget: 'markdown',required: false }
       - label: 'Navigation'
         name: 'nav'
         delete: false
