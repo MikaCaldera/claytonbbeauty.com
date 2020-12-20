@@ -24,19 +24,22 @@ components:
   - type: content
     container: container
     textAlign: left
-    body: Clayton’s first interest in beauty came at an early age. As a child, he
-      would hang out at his Aunt’s salon. In addition, to sweeping hair, he
-      would watch the joy of each client as they left the salon. At the age of
-      18, Clayton began his journey in the beauty industry. 12 years later he
-      has built up a long list of clients that leave his chair with the same
-      excitement on their faces he remembered seeing as a child. Always wanting
-      to learn and grow as a stylist he is always looking to enhance his
-      technique. He has assisted in a cover shoot for Seventeen Magazine, NYC
-      Fashion Week, as well as working on local events, photo shoots, and
-      fashion shows. Clayton’s true passion is his eye for color and love for
-      chemistry which makes him the eclectic colorist and stylist he is today.
-      If length is what you need he is also an extension specialist. Whatever
-      your hair need is, Clayton can deliver.
+    body: >-
+      Clayton’s talent, creativity, and passion for the beauty industry came
+      very natural at a young age. Clayton had the opportunity to spend time in
+      his Aunt Erin’s salon, sweeping hair, taking out rollers and being able to
+      see what the salon experience was all about. At the age of 18 his journey
+      in the beauty industry began, he has been a stylist since 2004. Always
+      continuing education, wanting to grow as a stylist to enhance his
+      techniques and salon experience. He has had many opportunities such as
+      working at MAC cosmetics, local events, photo shoots, fashion shows and
+      charities. He has also earned the opportunity to assist at a Latin America
+      Seventeen Magazine photo shoot, styling for NYC Fashion Week for two
+      consecutive years, and later to become a Gold Key Style educator for Kevin
+      Murphy. 
+
+
+      If length, fullness, or a change is what you need Clayton has been certified with Great Lengths Hair extensions hot and cold fusions since 2006, as well as being certified through Hot Head Tape Ins. He prides himself in providing an amazing salon experience and cares about all of your hair needs.
   - container: container
     showIndicators: false
     headingLevel: "1"
