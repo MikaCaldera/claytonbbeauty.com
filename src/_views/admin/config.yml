@@ -130,7 +130,7 @@ collections:
                   - { label: 'Normal', value: 'container' }
                   - { label: 'Fluid', value: 'container-fluid' }
                 default: 'container'
-              - { label: 'Form Note', name: 'formNote', widget: 'markdown' }
+              - { label: 'Form Desc', name: 'description', widget: 'markdown' }
               - { label: 'Form Note', name: 'formNote', widget: 'string', default: 'Contact form will appear here.' }
           - label: 'Separator'
             name: 'separator'
