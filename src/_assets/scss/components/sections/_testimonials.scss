@@ -1,5 +1,5 @@
 .section-testimonials {
-  @extend .text-center;
+  @extend .text-left;
 
   h1,
   h2,
@@ -13,5 +13,15 @@
   .carousel-inner {
     padding-top: $section-padding;
     padding-bottom: $section-padding;
+  }
+
+  .blockquote {
+    @extend .text-left;
+  }
+
+  .blockquote-footer {
+    @extend .text-info;
+
+    font-family: $headings-font-family;
   }
 }

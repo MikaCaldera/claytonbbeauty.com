@@ -1,7 +1,8 @@
-<div class="row">
+<div class="mainfooter row py-5">
   <div class="col">
     {% set ariaLabel = 'footer navigation' %}
     {% include "partials/components/footer-nav.njk" %}
+     {{ footernavigation.content | markdownFilter | safe }}
   </div>
   <div class="col">
     {% set ariaLabel = 'social media navigation' %}
