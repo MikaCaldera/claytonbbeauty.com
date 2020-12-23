@@ -8,9 +8,9 @@ metaDesc: Clayton B Beauty | Professional Hair Stylist in Connecticut Salon
 components:
   - body: "# Clayton W. Behrmann"
     form: false
-    linkText: Learn More
+    linkText: ""
     formBtnColor: secondary
-    buttonType: primary
+    buttonType: null
     flexRowOrder: flex-md-row
     background: /_assets/images/clayton-protrait.jpg
     backgroundAttachment: fixed
@@ -18,9 +18,9 @@ components:
     textColor: light
     formBgColor: dark
     type: hero
-    link: Contact Us
+    link: ""
     video: ""
-    btnSize: lg
+    btnSize: null
   - type: content
     container: container
     textAlign: left
