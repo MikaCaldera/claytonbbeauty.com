@@ -345,7 +345,8 @@ collections:
           - {label: 'Phone Number', name: 'phoneNumber', widget: 'string' }
           - {label: 'Sidebar Title', name: 'sidebarTitle', widget: 'string', required: false }
           - {label: 'Form HTML', name: 'formHtml', widget: 'text', required: false }
-          - {label: 'Form Markdown', name: 'formmarkdown', widget: 'markdown',required: false }
+          - {label: 'Form Markdown', name: 'formmarkdown', widget: 'markdown', required: false }
+          - {label: 'Contact Information', name: 'contact', widget: 'markdown', required: false }
       - label: 'Navigation'
         name: 'nav'
         delete: false
@@ -374,7 +375,6 @@ collections:
         fields:
           - { label: 'Text Alignment', name: 'textAlign', widget: 'select', options: ['left', 'right', 'center'], default: 'left'}
           - {label: 'Footer Content', name: 'footerContent', widget: 'markdown', required: false}
-          - {label: 'Footer Content Left', name: 'content', widget: 'markdown', required: false}
           - {label: 'Justify Footer Nav Contents', name: 'justify-footernav-contents', widget: 'select', options: ['start', 'center', 'end', 'between', 'around'], default: 'start'}
           - label: 'Items'
             name: 'items'

@@ -4,11 +4,13 @@
 
   .nav-link {
     color: $footer-color;
+    padding: 0;
   }
 
   .socialmedia-icon {
-    height: 1rem;
+    height: 2.5rem;
     width: auto;
+    padding: 0;
   }
 
   .socialmedia-icon + .item-wrap {

@@ -6,7 +6,7 @@ title: Clayton W. Behrmann
 metaTitle: Clayton B Beauty | Professional Hair Stylist in Connecticut Salon
 metaDesc: Clayton B Beauty | Professional Hair Stylist in Connecticut Salon
 components:
-  - body: "# Clayton W. Behrmann"
+  - body: ""
     form: false
     linkText: ""
     formBtnColor: secondary
@@ -25,6 +25,8 @@ components:
     container: container
     textAlign: left
     body: >-
+      # Clayton W. Behrmann
+
       Clayton’s talent, creativity, and passion for the beauty industry came
       very natural at a young age. Clayton had the opportunity to spend time in
       his Aunt Erin’s salon, sweeping hair, taking out rollers and being able to
