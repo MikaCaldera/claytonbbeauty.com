@@ -61,7 +61,6 @@ components:
     type: testimonials
   - type: contactform
     container: container
-    formNote: Contact form will appear here.
     description: |-
       ### Pricing
 
