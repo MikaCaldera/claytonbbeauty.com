@@ -76,3 +76,10 @@ body {
 .g-recaptcha {
   @extend .mb-5;
 }
+
+.section-contactform {
+  img {
+    max-height: 370px;
+    width: auto;
+  }
+}
