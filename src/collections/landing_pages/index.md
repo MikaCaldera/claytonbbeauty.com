@@ -76,6 +76,6 @@ components:
       Corrective color *Consultation* \
       Extensions.  *Consultation* \
       Updo *$90*
-    blurb: "![Hair Dryer](/_assets/images/img_1830.jpg)"
+    blurb: "![Hair Dryer](/_assets/images/img_1830a.jpg)"
     formNote: Note
 ---
