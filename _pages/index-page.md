@@ -28,30 +28,37 @@ section:
       consecutive years, and later to become a Gold Key Style educator for Kevin
       Murphy.
 
+
+
       If length, fullness, or a change is what you need Clayton has been certified with Great Lengths Hair extensions hot and cold fusions since 2006, as well as being certified through Hot Head Tape Ins. He prides himself in providing an amazing salon experience and cares about all of your hair needs.
-    header: Overview
+    header: About
     textcolor: text-white
     type: wysiwyg
   - ctas:
       - alt: Image Description
-        blurb: >-
-          Medicare and Individual
-
-
-          Medicare Advantage, Rx, Medicare Supplement, Individual, Cancer, Stroke, Heart Attack, Dental, Vision, Hospital Indemnity, Access Health
-        header: Health Insurance
-        image: assets/images/dylan-sauerwein-698i_1t0zva-unsplash.png
+        blurb: I have been going to Clayton for over 15 years. He is creative, fun and
+          always knows what to do with my hair even when I don't. I trust his
+          skills and I'm never disappointed. He is my forever hair stylist.
+        header: Nicole Hutchinson
+        image: assets/images/insta-1.png
       - alt: Image Description
-        blurb: |-
-          Whole & Term
-
-          Whole & Term Insurance, Funeral Insurance
-        header: Life Insurance
-        image: assets/images/jan-kronies-y3iefnca_wc-unsplash.png
+        blurb: Being a client of Clayton's for over 15yrs has been an absolute
+          privilege. Clayton always listens to his clients vision which helps
+          him align his talents to meet those goals. He strives for the best
+          with every situation-a perfectionist which always reflects in the
+          outcomes of each individual he services. He pursues continuous self
+          development in his craft with colors, cuts and styles. This is why I
+          drive two hours to see him for every appointment as he is best in
+          class.
+        header: Cheryl Wirth Newport, RI
+        image: assets/images/insta-2.png
       - alt: Image Description
-        blurb: Annuities, 401k rollovers
-        header: Annuities
-        image: assets/images/nick-dunn-obqxtsx3cvk-unsplash.png
+        blurb: Clayton has been my hair stylist for 10+ years and I always leave his
+          chair loving every cut, color and style! Clayton is extremely talented
+          and creative. I trust him, his skill and his opinion and that it very
+          important to me.
+        header: Celeste Neilsen
+        image: assets/images/insta-3.png
     type: cta
   - alignimage: "1"
     alt: Image Description
