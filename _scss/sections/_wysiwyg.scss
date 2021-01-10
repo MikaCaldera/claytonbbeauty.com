@@ -1,0 +1,16 @@
+.wysiwyg {
+  .content {
+    @extend .justify-content-center, .h-100, .p-5;
+
+    h2 {
+      @extend .my-2,;
+    }
+
+    .blurb {
+      @extend .mx-auto;
+
+      font-family: $font-family-second;
+      max-width: $spacer*44;
+    }
+  }
+}

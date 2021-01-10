@@ -1,189 +1,113 @@
-<<<<<<< HEAD
-Zero Point
-=======
-:sparkles: New Site!
+<h1 align="center">
+ Mika Starter Pack
+</h1>
 
+## Prerequisites
+The following tools should be installed before starting:
+* NodeJS, npm
+* Ruby, Gem, Bundler
+* Jekyll
+* Sass
 
-# A simple starter kit for Eleventy
+## Quick start
+1. Make sure you have all the prerequisites above installed.
+2. Clone this repo using `git clone https://github.com/sandoche/Jekyll-webpack-boilerplate.git`
+3. Move to the appropriate directory: `cd Jekyll-webpack-boilerplate`.
+4. Run `npm install` and `bundler install` in order to install dependencies and clean the git repo.
+5. Run `npm start` to start the development server (or use `npm start`).
 
-Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend it for yourself.
+## Quick deployment
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sandoche/Jekyll-webpack-boilerplate)
 
-Get started now by **[deploying Hylia to Netlify.][deploy-to-netlify]**
+Here is a demo of the Netlify build: https://dazzling-swartz-9738b5.netlify.com
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)][deploy-to-netlify]
+### Netlify CMS
 
-## Features
+It also works with Netlify CMS after enabling  Identity service and Git Gateway: https://www.netlifycms.org/docs/add-to-your-site/#enable-identity-and-git-gateway
 
-Hylia version 0.7.0 features:
+See `admin/config.yml` for more customization.
 
-✍️ A pre-configured [Netlify CMS](https://www.netlifycms.org/) setup  
-🎨 Customisable design tokens to make it your own  
-🌍 Customisable global data and navigation  
-📂 Tags and tag archives  
-✅ Progressively enhanced, semantic and accessible  
-🎈 _Super_ lightweight front-end  
-🚰 Sass powered CSS system with utility class generator  
-⚙️ Service worker that caches pages so people can read your articles offline  
-🚀 An RSS feed for your posts  
-💌 A basic contact form, ready for [Netlify Forms](https://docs.netlify.com/forms/setup/#html-forms)  
+## Development
+To start the development server just run  `npm start`
 
-## Roadmap
-
-💬 [Netlify Forms](https://www.netlify.com/docs/form-handling/) powered comments  
-💡 ~~Dark/Light mode toggle~~ [Added in 0.4.0](https://github.com/hankchizljaw/hylia/releases/tag/0.4.0)  
-🗣 Webmentions  
-📖 Pagination  
-🐦 Web sharing API integration  
-🗒 Offline mode with links to cached pages  
-📄 Documentation site  
-💅 Proper Sass documentation  
-✍️ Proper CMS documentation  
-🖼 A facility for you to be able to add your logo / branding  
-
->>>>>>> 98fca1f2375914db52b48dc6de79b9834d2e0c56
----
-
-### An efficient Eleventy starter to get you up to zero and start working.
-
-A lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, originally based on [Hylia](https://hylia.website).
-
-## Features
-
-Zero Point version 1.0 features:
-
-✍️ A pre-configured [Netlify CMS](https://www.netlifycms.org/) setup  
-🎨 Customisable design tokens! 
-🌍 Customisable global data and navigation  
-✅ Progressively enhanced, semantic and accessible  
-🚰 Sass powered CSS system  
-⚙️ Optional service worker that caches pages so people can read your articles offline  
-📱 Progressive Web App  
-🚀 Optional RSS feed for your posts  
-💌 Ready for [Netlify Forms](https://docs.netlify.com/forms/setup/#html-forms)
-
----
-
-## Terminal commands
-
-### Serve the site locally
-
-```bash
-yarn start
+### Folder structure
+```
+.
+├── 404.html
+├── about.md
+├── blog.md
+├── config <--- This folder contains the different Webpack config files
+│   ├── optimization-fix <--- A fix for optimization, do not delete this folder
+│   ├── postcss.config.js <--- Post css config
+│   ├── sw.config.js <--- The service worker config file
+│   ├── webpack.common.js <--- The common Webpack config file for all the environment
+│   ├── webpack.dev.js <--- Dev Webpack environment config file
+│   ├── webpack.optim.js <--- This is used to add the css critical path in the default template
+│   ├── webpack.prod.js <--- Prod Webpack environment config file
+│   └── webpack.pwa.js <--- Please edit this file if you want a PWA
+├── _config.yml <--- The Jekyll config file that you need to set up
+├── Gemfile
+├── Gemfile.lock
+├── _i18n <--- Contains your posts and data in the language you need (check below how to remove it)
+├── _images <--- Put all your images here, you will access them with this path /assets/images/
+│   ├── icon.png <--- Replace this with your icon
+│   └── large-icon.png <--- Replace this with your Facebook Open Graph picture
+├── icon.png <--- Same with this one
+├── _includes
+├── index.md
+├── _layouts
+│   ├── amp.html <--- The layout for Accelerated mobile page
+│   ├── blog.html
+│   ├── home.html
+│   ├── page.html
+│   └── post.html
+├── LICENSE
+├── package.json <--- Update this file with your information especially the name which is used for the meta tags
+├── README.md
+├── _scss <--- Put your partials here
+│   └── _default.scss
+├── _src <--- This folder contains your JS and SASS entry points
+│   ├── index.js
+│   ├── index.scss
+│   └── template
+│       └── default.html <--- Here is the main default template, feel free to edit it but do not delete it
+├── webpack.config.js
+└── package-lock.json
 ```
 
-### Build a production version of the site
+## Build
 
-```bash
-yarn production
+### Optimized website
+To build the website run the following line
+
+```
+npm run build
+
+# or if you want the critical css
+npm run build:optim
+```
+The built website will be in `_site` folder.
+
+You can also run a local server to test it with this command
+```
+npm run serve:dist
 ```
 
-### Compile Sass
+\
 
-```bash
-yarn sass:process
+### Clean assets & \_site folders
+This will remove the generated folders
+```
+npm run clean:project
 ```
 
-### Re-generate design tokens for Sass
+## Known issues
+* Jekyll watch doesn't reload / rebuild when a translation file is updated inside `_i18n` folder, I recommand to remove `jekyll-multiple-languages-plugin` if you don't want a multi language website and if you want to watch / rebuild faster. Otherwise close and start  `npm run start` to rebuild and see your changes from `_i18n`
+* The critical CSS Path may show some weird behavior when the page is loading that is why there are separated npm scripts
 
-```bash
-yarn sass:tokens
-```
 
----
 
-**Note**: _Credit must be given to the hard work [Jina Anne](https://twitter.com/jina) did in order for the concept of design tokens to even exist. You should watch [this video](https://www.youtube.com/watch?v=wDBEc3dJJV8), then [read this article](https://the-pastry-box-project.net/jina-bolton/2015-march-28) and then sign up for [this course](https://aycl.uie.com/virtual_seminars/design_tokens_scaling_design_with_a_single_source_of_truth) to expand your knowledge._
 
----
 
-To change the design tokens in the CMS, find the “Globals” in the sidebar then in the presented options, select “Theme Settings”.
 
-To change the design tokens directly, edit [`_src/data/tokens.json`](https://github.com/hankchizljaw/hylia/blob/master/src/_data/tokens.json).
 
-The tokens are converted into maps that the Sass uses to compile the front-end CSS, so make sure that you maintain the correct structure of `tokens.json`.
-
-### Styleguide
-
-<<<<<<< HEAD
-Your version of Zero Point ships with a Styleguide by default. 
-
-You can edit the Styleguide by opening `src/styleguide.njk`. If you don’t want the Styleguide, delete that file and the page will vanish.
-=======
-Your version of Hylia ships with a Styleguide by default. You can see a demo of the Styleguide at <https://hylia.website/styleguide/>.
-
-You can edit the Styleguide by opening [`src/styleguide.njk`](https://github.com/hankchizljaw/hylia/blob/master/src/styleguide.njk). If you don’t want the Styleguide, delete that file and the page will vanish.
-
-## Sass
-
-Hylia is based on the [WIP v2 version of Stalfos](https://github.com/hankchizljaw/stalfos/tree/feature/v2), which currently has no documentation (I know, I’m bad). Here is some very basic documentation for elements of the new framework that you will encounter on this project.
-
-### Configuration
-
-The whole Sass system is powered by central config file, which lives here: [`_src/scss/_config.scss`](https://github.com/hankchizljaw/hylia/blob/master/src/scss/_config.scss).
-
-Before Sass is compiled, a `_tokens.scss` file is generated from the [design tokens config](https://github.com/hankchizljaw/hylia/blob/master/src/_data/tokens.json) which is required.
-
-Key elements:
-
-- `$stalfos-size-scale`: A token driven size scale which by default, is a “Major Third” scale
-- `$stalfos-colors`: A token driven map of colours
-- `$stalfos-util-prefix`: All pre-built, framework utilities will have this prefix. Example: the wrapper utility is '.sf-wrapper' because the default prefix is 'sf-'
-- `$metrics`: Various misc metrics to use around the site
-- `$stalfos-config`: This powers everything from utility class generation to breakpoints to enabling/disabling pre-built components/utilities
-
-### How to create a new utility class with the generator
-
-The utility class generator lets you generate whatever you want, with no opinions on class name or properties affected.
-
-To add a new class, add another item to the exists `$stalfos-config` map. This example adds a utility for floating elements.
-
-```scss
-'float':('items':('left':'left','right': 'right'
-  ),
-  'output': 'responsive',
-  'property': 'float'
-);
-```
-
-The `output` is set to `responsive` which means every breakpoint will generate a prefixed class for itself. If you only wanted elements to float left in the `md` breakpoint, you’d now be able to add a class of `md:float-left` to your HTML elements.
-
-If you only want standard utility classes generating, set the `output` to `standard`.
-
-### Functions
-
-#### `get-color($key)`
-
-Function tries to match the passed `$key` with the `$stalfos-colors` map. Returns null if it can’t find a match.
-
-#### `get-config-value($key, $group)`
-
-Returns back a 1 dimensional (key value pair) config value if available.
-
-#### `get-size($ratio-key)`
-
-Function tries to match the passed `$ratio-key` with the `$stalfos-size-scale`. Returns null if it can’t find a match.
-
-### Mixins
-
-#### `apply-utility($key, $value-key)`
-
-Grabs the property and value of one of the `$stalfos-config utilities` that the generator will generate a class for.
-
-#### `media-query($key)`
-
-Pass in the key of one of your breakpoints set in `$stalfos-config['breakpoints']` and this mixin will generate the `@media` query with your configured value.
-
-## CMS
-
-Hylia has [Netlify CMS](https://www.netlifycms.org/) pre-configured as standard. You can customise the configuration by editing [`src/admin/config.yml`](https://github.com/hankchizljaw/hylia/blob/master/src/admin/config.yml).
-
-### Content that you can edit
-
-The basic CMS setup allows you to edit the following:
-
-- **Home page**: Edit the content on your homepage
-- **Posts**: Create and edit blog posts
-- **Generic pages**: Create generic pages that use a similar layout to posts
-- **Global site data**: Various bits of global site data such as your url, title, posts per page and author details
-- **Navigation**: Edit your primary navigation items
-- **Theme**: Edit the design tokens that power the site’s theme
->>>>>>> 98fca1f2375914db52b48dc6de79b9834d2e0c56

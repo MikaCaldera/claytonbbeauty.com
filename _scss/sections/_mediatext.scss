@@ -1,0 +1,11 @@
+// Media Text
+.mediatext {
+  @extend .py-5;
+
+  .btn {
+    @extend .my-5;
+  }
+  img {
+    border-radius: 0.5rem;
+  }
+}

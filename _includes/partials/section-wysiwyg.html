@@ -1,0 +1,14 @@
+<section class="{{ item.bgcolor }} wysiwyg">
+  <div class="container">
+    <article class="row">
+      <div class="col">
+        <div class="content {{ item.textcolor }}">
+          <h2 class="text-center my-2">{{ item.header }}</h2>
+          <div class="blurb">
+              {{ item.content | markdownify }}
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>

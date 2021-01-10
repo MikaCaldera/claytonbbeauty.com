@@ -1,0 +1,46 @@
+// Import Bootstrap functions
+@import "~bootstrap/scss/functions";
+
+// Variables
+$theme-colors: (
+  primary: #040F3D,
+  secondary: #0FFFFF,
+  success: #FF1FFF,
+  info: #59636E,
+  warning: #ffc107,
+  danger: #dc3545,
+  light: #f8f9fa,
+  dark: #0A181A
+);
+
+// Global Variables
+$link-color:            map-get($theme-colors, 'success');
+$link-hover-color:      darken(map-get($theme-colors, 'success'), 5%);
+$link-hover-decoration: none;
+$spacer: 1rem;
+$body-color:    #59636E;
+
+// Fonts
+$primary-font-family: 'Montserrat', sans-serif;
+$font-family-base: 'Merriweather', sans-serif;
+$font-family-second: Montserrat, sans-serif;
+
+// typography
+$enable-responsive-font-sizes: true;
+
+$font-size-sm: 1rem;
+
+// header sizes
+$h1-font-size: 4rem;
+$h2-font-size: 3rem;
+$h3-font-size: 2rem;
+$h4-font-size: 1.5rem;
+$h5-font-size: 1rem;
+$font-weight-base: 100;
+
+// Cards
+$card-border-radius: 0;
+
+// Buttons
+$btn-font-family: $font-family-second;
+$btn-font-weight: 500;

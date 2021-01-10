@@ -1,0 +1,19 @@
+// Footer Section
+footer {
+  @extend .py-5, .bg-secondary;
+
+  .address {
+    img {
+      min-height: $spacer*8;
+    }
+  }
+  .number-hold {
+    .text {
+      font-size: $spacer*1.5;
+    }
+    .number {
+      font-size: $spacer*1.2;
+    }
+  }
+  .form {}
+}

@@ -1,0 +1,29 @@
+// Call to Actions
+.calltoaction {
+  @extend .py-5, .my-5;
+
+  .card-cta {
+    @extend .h-100, .border-0, .bg-transparent;
+
+    img{
+      @extend .mx-auto;
+
+      width: $spacer*12;
+    }
+
+    .card-body {
+      @extend .text-center, .bg-primary;
+
+      .card-title {
+        text-transform: uppercase;
+        color: red;
+        font-family: $font-family-base;
+      }
+      .card-text {
+        font-weight: 400;
+        line-height: 1.8rem;
+        font-family: $font-family-second;
+      }
+    }
+  }
+}

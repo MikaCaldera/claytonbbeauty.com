@@ -1,0 +1,15 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap'); //font-family: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap'); //font-family: 'Merriweather', serif;
+
+
+// Import variable overrides
+@import '../_scss/variables';
+
+// Import dependencies from node_modules
+@import "~bootstrap/scss/bootstrap";
+
+// Site Specific Scss
+@import '../_scss/default';
+@import '../_scss/sections';

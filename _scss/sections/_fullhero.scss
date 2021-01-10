@@ -1,0 +1,18 @@
+// Full Hero Section
+.hero {
+  @extend .px-5, .pt-4, .pt-md-5, .text-white, .bg-dark;
+
+  .jumbotron {
+    @extend .m-0;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(/assets/images/header-image.png);
+    min-height: $spacer*30;
+    background-color: transparent;
+  }
+  article {
+    @extend .p-5, .pl-5, .mb-5;
+  }
+}

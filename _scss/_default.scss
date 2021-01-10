@@ -1,0 +1,16 @@
+//Structure & Layout Scss
+.home, .page {
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  font-family: $font-family-second;
+  font-weight: 400;
+}
+
+.btn {
+  color: theme-color('darkgrey');
+}
