@@ -63,31 +63,18 @@ section:
   - alignimage: "1"
     alt: Image Description
     content: |-
-      ### Pricing
-
-      Women’s haircut/blow dry $60
-
-      Men’s haircut $35
-
-      Full highlight $120
-
-      Partial $90
-
-      Flash $40
-
-      Retouch color $60
-
-      Eye brow tint $10 
-
-      Glaze $35
-
-      Balayage $140/Consultation
-
-      Corrective color Consultation 
-
-      Extensions.  Consultation 
-
-      Updo $90
+      Women’s haircut/blow dry *$60*\
+      Men’s haircut *$35*\
+      Full highlight *$120*\
+      Partial *$90*\
+      Flash *$40*\
+      Retouch color *$60*\
+      Eye brow tint *$10* \
+      Glaze *$35*\
+      Balayage *$140/Consultation*\
+      Corrective Color *Consultation* \
+      Extensions *Consultation* \
+      Updo *$90*
     header: Pricing
     image: assets/images/clayton-protrait.jpg
     link: View More Styles on Instagram
