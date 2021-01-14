@@ -5,9 +5,9 @@ logo: assets/images/icon.png
 message: "Header Message "
 header: Professional Hair Stylist
 address: |-
-  ## [International Hair Salon](https://bladesinternationalsalon.com/)
+  ###### [International Hair Salon](https://bladesinternationalsalon.com/)
 
-  [](https://bladesinternationalsalon.com/)1845 Silas Deane Highway,\
+  1845 Silas Deane Highway
   Rocky Hill, CT 06067
 number:
   greeting: Professional Hair Stylist
