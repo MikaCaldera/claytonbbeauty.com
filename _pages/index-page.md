@@ -8,12 +8,13 @@ section:
   - alt: Image Description
     cta:
       link: "#"
-      title: Make not required
+      title: "View "
     headline: Clayton W. Behrmann
     heroimage: assets/images/img_1830a.jpg
     subheader: "Professional Hair Stylist "
     type: fullhero
-  - bgcolor: bg-primary
+  - type: mediatext
+    header: About
     content: >-
       Clayton’s talent, creativity, and passion for the beauty industry came
       very natural at a young age. Clayton had the opportunity to spend time in
@@ -29,11 +30,32 @@ section:
       Murphy.
 
 
-
       If length, fullness, or a change is what you need Clayton has been certified with Great Lengths Hair extensions hot and cold fusions since 2006, as well as being certified through Hot Head Tape Ins. He prides himself in providing an amazing salon experience and cares about all of your hair needs.
-    header: About
-    textcolor: text-white
-    type: wysiwyg
+    image: assets/images/clayton-protrait.jpg
+    alt: Clayton B.
+    link: Link Title
+    url: Url
+    alignimage: "1"
+  - alignimage: "3"
+    alt: Image Description
+    content: |-
+      Women’s haircut/blow dry *$60*
+      Men’s haircut *$35*
+      Full highlight *$120*
+      Partial *$90*
+      Flash *$40*
+      Retouch color *$60*
+      Eye brow tint *$10*
+      Glaze *$35*
+      Balayage *$140/Consultation*
+      Corrective Color *Consultation*
+      Extensions *Consultation*
+      Updo *$90*
+    header: Pricing
+    image: assets/images/img_1830.jpg
+    link: View More Styles on Instagram
+    type: mediatext
+    url: https://www.instagram.com/claytonbbeauty/
   - ctas:
       - alt: Image Description
         blurb: I have been going to Clayton for over 15 years. He is creative, fun and
@@ -60,32 +82,4 @@ section:
         header: Celeste Neilsen
         image: assets/images/insta-3.png
     type: cta
-  - alignimage: "1"
-    alt: Image Description
-    content: |-
-      Women’s haircut/blow dry *$60*\
-      Men’s haircut *$35*\
-      Full highlight *$120*\
-      Partial *$90*\
-      Flash *$40*\
-      Retouch color *$60*\
-      Eye brow tint *$10* \
-      Glaze *$35*\
-      Balayage *$140/Consultation*\
-      Corrective Color *Consultation* \
-      Extensions *Consultation* \
-      Updo *$90*
-    header: Pricing
-    image: assets/images/clayton-protrait.jpg
-    link: View More Styles on Instagram
-    type: mediatext
-    url: https://www.instagram.com/claytonbbeauty/
-  - type: mediatext
-    header: Header
-    content: Content
-    image: https://placekitten.com/640/360
-    alt: Image Description
-    link: Link Title
-    url: Url
-    alignimage: "1"
 ---
