@@ -4544,15 +4544,13 @@ a.close.disabled {
   vertical-align: text-bottom !important; }
 .align-text-top {
   vertical-align: text-top !important; }
-.bg-primary, .header .intro-copy, .calltoaction .card-cta .card-body {
+.bg-primary, .header .intro-copy {
   background-color: #040F3D !important; }
-a.bg-primary:hover, .header a.intro-copy:hover, .calltoaction .card-cta a.card-body:hover, a.bg-primary:focus, .header a.intro-copy:focus, .calltoaction .card-cta a.card-body:focus,
+a.bg-primary:hover, .header a.intro-copy:hover, a.bg-primary:focus, .header a.intro-copy:focus,
 button.bg-primary:hover,
 .header button.intro-copy:hover,
-.calltoaction .card-cta button.card-body:hover,
 button.bg-primary:focus,
-.header button.intro-copy:focus,
-.calltoaction .card-cta button.card-body:focus {
+.header button.intro-copy:focus {
   background-color: #01030d !important; }
 .bg-secondary, footer {
   background-color: #0FFFFF !important; }
@@ -5753,16 +5751,14 @@ footer,
   margin-top: auto !important; }
 .mr-auto,
 .mx-auto,
-.wysiwyg .content .blurb,
-img {
+.wysiwyg .content .blurb {
   margin-right: auto !important; }
 .mb-auto,
 .my-auto {
   margin-bottom: auto !important; }
 .ml-auto,
 .mx-auto,
-.wysiwyg .content .blurb,
-img {
+.wysiwyg .content .blurb {
   margin-left: auto !important; }
 @media (min-width: 576px) {
   .m-sm-0 {
@@ -6860,9 +6856,9 @@ a.text-primary:hover, a.text-primary:focus {
   color: #0FFFFF !important; }
 a.text-secondary:hover, a.text-secondary:focus {
   color: #00c2c2 !important; }
-.text-success {
+.text-success, .calltoaction .card-cta .card-body .card-title {
   color: #FF1FFF !important; }
-a.text-success:hover, a.text-success:focus {
+a.text-success:hover, .calltoaction .card-cta .card-body a.card-title:hover, a.text-success:focus, .calltoaction .card-cta .card-body a.card-title:focus {
   color: #d200d2 !important; }
 .text-info {
   color: #59636E !important; }
@@ -7046,17 +7042,13 @@ footer .number-hold .text {
   font-size: 1.5rem; }
 footer .number-hold .number {
   font-size: 1.2rem; }
+.calltoaction .card-cta img {
+  border-radius: 0.5rem; }
 .calltoaction .card-cta .card-body .card-title {
-  text-transform: uppercase;
-  color: red;
   font-family: "Merriweather", sans-serif; }
 .calltoaction .card-cta .card-body .card-text {
   font-weight: 400;
   line-height: 1.8rem;
   font-family: Montserrat, sans-serif; }
-img {
-  width: 12rem;
-  border-radius: 0.5rem;
-  border: 1px solid red; }
 
 /*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuY3NzIiwic291cmNlUm9vdCI6IiJ9*/
