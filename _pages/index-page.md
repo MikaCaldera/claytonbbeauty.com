@@ -13,26 +13,6 @@ section:
     heroimage: assets/images/hand-hero.png
     subheader: "Professional Hair Stylist "
     type: fullhero
-  - type: halfhero
-    heroimage: assets/images/clayton-protrait.jpg
-    alt: Image Description
-    header: About
-    blurb: >-
-      Clayton’s talent, creativity, and passion for the beauty industry came
-      very natural at a young age. Clayton had the opportunity to spend time in
-      his Aunt Erin’s salon, sweeping hair, taking out rollers and being able to
-      see what the salon experience was all about. At the age of 18 his journey
-      in the beauty industry began, he has been a stylist since 2004. Always
-      continuing education, wanting to grow as a stylist to enhance his
-      techniques and salon experience. He has had many opportunities such as
-      working at MAC cosmetics, local events, photo shoots, fashion shows and
-      charities. He has also earned the opportunity to assist at a Latin America
-      Seventeen Magazine photo shoot, styling for NYC Fashion Week for two
-      consecutive years, and later to become a Gold Key Style educator for Kevin
-      Murphy.
-
-
-      If length, fullness, or a change is what you need Clayton has been certified with Great Lengths Hair extensions hot and cold fusions since 2006, as well as being certified through Hot Head Tape Ins. He prides himself in providing an amazing salon experience and cares about all of your hair needs.
   - type: mediatext
     header: About
     content: >-
@@ -53,8 +33,8 @@ section:
       If length, fullness, or a change is what you need Clayton has been certified with Great Lengths Hair extensions hot and cold fusions since 2006, as well as being certified through Hot Head Tape Ins. He prides himself in providing an amazing salon experience and cares about all of your hair needs.
     image: assets/images/clayton-protrait.jpg
     alt: Clayton B.
-    link: No Require
-    url: "#"
+    link: ""
+    url: ""
     alignimage: "1"
   - alignimage: "3"
     alt: Image Description
