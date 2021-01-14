@@ -1,29 +1,22 @@
 <!-- Footer  -->
 <footer class="container-fluid">
   <section class="container">
-    <div class="row d-flex align-items-top">
+    <div class="row d-flex align-items-top text-center">
+      <div class="col-12 col-md form">
+        <img class="img-responsive d-inline-block align-top" height="100px"
+        src="{{ site.data.general.logo | relative_url }}" alt="">
+        <small class="d-block mb-3 text-muted">© 2020</small>
+      </div>
       <div class="col-12 col-md address">
         <address class="address">
           {{ site.data.general.address | markdownify }}
         </address>
-        <img class="img-responsive d-inline-block align-top" height="50px"
-        src="{{ site.data.general.logo | relative_url }}" alt="">
-        <small class="d-block mb-3 text-muted">© 2020</small>
       </div>
       <div class="col-12 col-md number-hold">
         {% assign number = site.data.general.number %}
         {% if number %}
             <span class="text d-block lead">{{ number.greeting }}</span>
             <a class="number" href="{{ number.link }}">{{ number.link }}</a>
-        {% endif %}
-      </div>
-      <div class="col-12 col-md form">
-        <!-- Form Html -->
-        {% assign form = site.data.forms %}
-        {% if form.html %}
-          <div>
-            {{ form.html }}
-          </div>
         {% endif %}
       </div>
   </section>

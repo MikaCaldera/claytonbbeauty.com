@@ -5,20 +5,20 @@
   .card-cta {
     @extend .h-100, .border-0, .bg-transparent;
 
-    img{
-      @extend .mx-auto;
+    img {
 
-      width: $spacer*12;
+      border-radius: 0.5rem;
     }
 
     .card-body {
-      @extend .text-center, .bg-primary;
+      @extend .text-center;
 
       .card-title {
-        text-transform: uppercase;
-        color: red;
+        @extend .text-success;
+
         font-family: $font-family-base;
       }
+
       .card-text {
         font-weight: 400;
         line-height: 1.8rem;
