@@ -10,7 +10,7 @@ section:
       link: "#"
       title: "View "
     headline: Clayton W. Behrmann
-    heroimage: assets/images/img_1830a.jpg
+    heroimage: assets/images/clayton-protrait.jpg
     subheader: "Professional Hair Stylist "
     type: fullhero
   - type: mediatext
@@ -52,7 +52,7 @@ section:
       Extensions *Consultation*
       Updo *$90*
     header: Pricing
-    image: assets/images/img_1830.jpg
+    image: assets/images/img_1830a.jpg
     link: View More Styles on Instagram
     type: mediatext
     url: https://www.instagram.com/claytonbbeauty/
