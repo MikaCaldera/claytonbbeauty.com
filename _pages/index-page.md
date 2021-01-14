@@ -10,7 +10,7 @@ section:
       link: "#"
       title: Make not required
     headline: Clayton W. Behrmann
-    heroimage: assets/images/img_1830.jpg
+    heroimage: assets/images/img_1830a.jpg
     subheader: "Professional Hair Stylist "
     type: fullhero
   - bgcolor: bg-primary
@@ -80,4 +80,12 @@ section:
     link: View More Styles on Instagram
     type: mediatext
     url: https://www.instagram.com/claytonbbeauty/
+  - type: mediatext
+    header: Header
+    content: Content
+    image: https://placekitten.com/640/360
+    alt: Image Description
+    link: Link Title
+    url: Url
+    alignimage: "1"
 ---
