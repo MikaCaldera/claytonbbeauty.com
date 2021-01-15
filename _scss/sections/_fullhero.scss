@@ -11,6 +11,13 @@
     background-image: url(/assets/images/header-image.png);
     min-height: $spacer*35;
     background-color: transparent;
+
+    @include media-breakpoint-down(md) { 
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      min-height: $spacer*15;
+     }
   }
   article {
     @extend .p-5, .pl-5, .mb-5;

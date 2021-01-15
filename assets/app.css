@@ -4588,7 +4588,7 @@ a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
   background-color: #dae0e5 !important; }
-.bg-dark, .hero {
+.bg-dark, .header.hero, .hero {
   background-color: #0A181A !important; }
 a.bg-dark:hover, a.hero:hover, a.bg-dark:focus, a.hero:focus,
 button.bg-dark:hover,
@@ -5488,7 +5488,7 @@ button.hero:focus {
   width: 100vw !important; }
 .vh-100 {
   height: 100vh !important; }
-.m-0, .hero .jumbotron {
+.m-0, .header.hero .jumbotron, .hero .jumbotron {
   margin: 0 !important; }
 .mt-0,
 .my-0 {
@@ -5572,7 +5572,7 @@ button.hero:focus {
 .mr-5,
 .mx-5 {
   margin-right: 3rem !important; }
-.mb-5, .hero article,
+.mb-5, .header.hero article, .hero article,
 .my-5,
 .mediatext .btn,
 .calltoaction {
@@ -5638,7 +5638,7 @@ button.hero:focus {
   padding-left: 1rem !important; }
 .p-4 {
   padding: 1.5rem !important; }
-.pt-4, .hero,
+.pt-4, .header.hero, .hero,
 .py-4 {
   padding-top: 1.5rem !important; }
 .pr-4,
@@ -5650,7 +5650,7 @@ button.hero:focus {
 .pl-4,
 .px-4 {
   padding-left: 1.5rem !important; }
-.p-5, .hero article, .wysiwyg .content {
+.p-5, .header.hero article, .hero article, .wysiwyg .content {
   padding: 3rem !important; }
 .pt-5,
 .py-5,
@@ -5661,6 +5661,7 @@ footer,
   padding-top: 3rem !important; }
 .pr-5,
 .px-5,
+.header.hero,
 .hero {
   padding-right: 3rem !important; }
 .pb-5,
@@ -5670,8 +5671,9 @@ footer,
 footer,
 .calltoaction {
   padding-bottom: 3rem !important; }
-.pl-5, .hero article,
+.pl-5, .header.hero article, .hero article,
 .px-5,
+.header.hero,
 .hero {
   padding-left: 3rem !important; }
 .m-n1 {
@@ -6170,7 +6172,7 @@ footer,
     padding-left: 1.5rem !important; }
   .p-md-5 {
     padding: 3rem !important; }
-  .pt-md-5, .hero,
+  .pt-md-5, .header.hero, .hero,
   .py-md-5 {
     padding-top: 3rem !important; }
   .pr-md-5,
@@ -6846,7 +6848,7 @@ footer,
   font-weight: bolder !important; }
 .font-italic {
   font-style: italic !important; }
-.text-white, .hero {
+.text-white, .header.hero, .hero {
   color: #fff !important; }
 .text-primary {
   color: #040F3D !important; }
@@ -6995,6 +6997,13 @@ p {
     margin-left: 30px; }
 .navigation__link--active {
       color: red; }
+.header.hero .jumbotron {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(/assets/images/header-image.png);
+  min-height: 35rem;
+  background-color: transparent; }
 .hero .jumbotron {
   background-repeat: no-repeat;
   background-size: cover;
