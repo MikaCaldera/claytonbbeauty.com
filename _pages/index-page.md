@@ -14,7 +14,7 @@ section:
     subheader: "Professional Hair Stylist "
     type: fullhero
   - type: mediatext
-    header: About
+    header: ""
     content: >-
       Clayton’s talent, creativity, and passion for the beauty industry came
       very natural at a young age. Clayton had the opportunity to spend time in
