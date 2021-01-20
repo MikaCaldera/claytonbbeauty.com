@@ -10,7 +10,7 @@ section:
       link: tel:1-860-257-8353
       title: Call to Book Appointment
     headline: Clayton W. Behrmann
-    heroimage: assets/images/hand-hero-sm-01a.png
+    heroimage: assets/images/hand-hero.png
     subheader: "Professional Hair Stylist "
     type: fullhero
   - type: mediatext
